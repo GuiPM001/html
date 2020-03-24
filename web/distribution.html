@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 
-    <html>
+<html>
 
-        <head>
-            <meta charset="UTF-8">
-            <title>Distribution</title>         
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Distribution</title>         
+    </head>
 
-        <body>
-            <h1>Getting the WWW files</h1>
-                <p>Read this if you have not yet got the WWW files you need, and you cannot NFS mount a directory on which they reside.</p>
-                <p>The source and binary of WWW project files are currently available (see copyright ) by anonymous FTP from node info.cern.ch. This node is currently 128.141.201.74 but THIS MAY CHANGE. The files are compressed tape archive files (.tar.Z). To get a file using anonymous FTP, use user name "anonymous", and your email address as a password:-</p>
+    <body>
+        <h1>Getting the WWW files</h1>
+            <p>Read this if you have not yet got the WWW files you need, and you cannot NFS mount a directory on which they reside.</p>
+            <p>The source and binary of WWW project files are currently available (see copyright ) by anonymous FTP from node info.cern.ch. This node is currently 128.141.201.74 but THIS MAY CHANGE. The files are compressed tape archive files (.tar.Z). To get a file using anonymous FTP, use user name "anonymous", and your email address as a password:-</p>
 
-                <pre>    
-                    > ftp info.cern.ch
-                    Enter user name: anonymous
-                    Password: me@myhost.edu
-                    ftp> cd /pub/www/src
-                    ftp> binary
-                    ftp> get WWWLineMode_vvv.tar.Z
-                    ftp> quit
-                    >        
-                </pre>
+            <pre>    
+                > ftp info.cern.ch
+                Enter user name: anonymous
+                Password: me@myhost.edu
+                ftp> cd /pub/www/src
+                ftp> binary
+                ftp> get WWWLineMode_vvv.tar.Z
+                ftp> quit
+                >        
+            </pre>
 
-                <p>The file name will depend on the product you want. Here vvv is the version number of the software.</p>
-                <p>Once you have the compressed tar file, you must uncompress it and unwrap it.</p>
+            <p>The file name will depend on the product you want. Here vvv is the version number of the software.</p>
+            <p>Once you have the compressed tar file, you must uncompress it and unwrap it.</p>
 
-                <pre>
-                    ncompress WWWLineMode_vvv.tar.Z
-                </pre>
+            <pre>
+                ncompress WWWLineMode_vvv.tar.Z
+            </pre>
 
-                <p>This will make a rather larger file with the name without the ".Z". To unwrap it,</p>
+            <p>This will make a rather larger file with the name without the ".Z". To unwrap it,</p>
 
-                <pre>
-                    tar xvf WWWLineMode_vvv.tar
-                </pre>
+            <pre>
+                tar xvf WWWLineMode_vvv.tar
+            </pre>
 
-                <p>Now you should install the line mode browser , install the server , install Viola , etc.</p>
-                <p>Tim BL</p>
-            </body>
+            <p>Now you should install the line mode browser , install the server , install Viola , etc.</p>
+            <p>Tim BL</p>
+    </body>
 
-        </html> 
+</html> 
