@@ -1,2 +1,2 @@
-# html
+# HTML
 Repositório de práticas HTML
