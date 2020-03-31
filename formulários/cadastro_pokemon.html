@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pokémons</title>
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <form>
+        <div>
+            <label for="numero">Número</label>
+            <input type="number">
+        </div>
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="tipo1">Tipo 1</label>
+            <select name="tipo1" id="tipo1">
+                <option value=""></option>
+                <option value="aço">Aço</option>
+                <option value="agua">Água</option>
+                <option value="dragão">Dragão</option>
+                <option value="eletrico">Elétrico</option>
+                <option value="fada">Fada</option>
+                <option value="fantasma">Fantasma</option>
+                <option value="fogo">Fogo</option>
+                <option value="gelo">Gelo</option>
+                <option value="inseto">Inseto</option>
+                <option value="lutador">Lutador</option>
+                <option value="normal">Normal</option>
+                <option value="pedra">Pedra</option>
+                <option value="planta">Planta</option>
+                <option value="psíquico">Psíquico</option>
+                <option value="sombrio">Sombrio</option>
+                <option value="terra">Terra</option>
+                <option value="venenoso">Venenoso</option>
+                <option value="voador">Voador</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="tipo2">Tipo 2</label>
+            <select name="tipo2" id="tipo2">
+                <option value=""></option>
+                <option value="aço">Aço</option>
+                <option value="agua">Água</option>
+                <option value="dragão">Dragão</option>
+                <option value="eletrico">Elétrico</option>
+                <option value="fada">Fada</option>
+                <option value="fantasma">Fantasma</option>
+                <option value="fogo">Fogo</option>
+                <option value="gelo">Gelo</option>
+                <option value="inseto">Inseto</option>
+                <option value="lutador">Lutador</option>
+                <option value="normal">Normal</option>
+                <option value="pedra">Pedra</option>
+                <option value="planta">Planta</option>
+                <option value="psíquico">Psíquico</option>
+                <option value="sombrio">Sombrio</option>
+                <option value="terra">Terra</option>
+                <option value="venenoso">Venenoso</option>
+                <option value="voador">Voador</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="total">Total</label>
+            <input type="number" name="total" id="total">
+        </div>
+
+        <div>
+            <label for="hp">HP</label>
+            <input type="number" name="hp" id="hp" min="1" max="255">
+        </div>
+
+        <div>
+            <label for="ataque">Ataque</label>
+            <input type="number" name="ataque" id="ataque">
+        </div>
+
+        <div>
+            <label for="defesa">Defesa</label>
+            <input type="number" name="defesa" id="defesa">
+        </div>
+
+        <div>
+            <label for="ataque-especial">Ataque Especial</label>
+            <input type="number" name="ataque-especial" id=ataque-especial>
+        </div>
+
+        <div>
+            <label for="defesa-especial">Defesa Especial</label>
+            <input type="number" name="defesa-esecial" id="defesa-especial">
+        </div>
+
+        <div>
+            <label for="velocidade">Velocidade</label>
+            <input type="number" name="velocidade" id="velocidade">
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Geração</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="1">1</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="2">2</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="3">3</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="4">4</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="5">5</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="6">6</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="geracao" id="geracao">
+                            <label for="7">7</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            
+        </div>
+
+        <div>
+            <fieldset>
+            <legend>Lendário</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="sn" id="sim">
+                        <label for="sim">Sim</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sn" id="nao">
+                        <label for="nao">Não</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="cor">Cor</label>
+            <select name="tipo2" id="tipo2">
+                <option value=""></option>
+                <option value="amarelo">Amarelo</option>
+                <option value="azul">Azul</option>
+                <option value="branco">Branco</option>
+                <option value="cinza">Cinza</option>
+                <option value="marrom">Marrom</option>
+                <option value="preto">Preto</option>
+                <option value="rosa">Rosa</option>
+                <option value="roxo">Roxo</option>
+                <option value="verde">Verde</option>
+                <option value="vermelho">Vermelho</option>
+
+            </select>
+        </div>
+
+        <div>
+            <label for="altura-m">Altura (m)</label>
+            <input type="number" name="altura-m" id="altura">
+        </div>
+
+        <div>
+            <label for="peso-kg">Peso (Kg)</label>
+            <input type="number" name="peso-kg" id="peso">
+        </div>
+
+        <div>
+            <label for="taxa-captura">Taxa de Captura</label>
+            <input type="number" name="taxa-captura" id="taxa-captura" min="0" max="255">
+        </div>
+    </form>
+</body>
+</html>
