@@ -1,2 +1,2 @@
 # Formulário
-Atividade de formulário usando como base uma pokédex
+Atividade de formulário usando como base uma pokédex.
