@@ -9,19 +9,19 @@
     <h1>Pokédex</h1>
     <form>
         <div>
-            <label for="numero">Número</label>
-            <input type="number">
+            <label for="numero-pokemon">Número</label>
+            <input type="number" id="numero-pokemon">
         </div>
 
         <div>
-            <label for="nome">Nome</label>
-            <input type="text">
+            <label for="nome-pokemon">Nome</label>
+            <input type="text" id="nome-pokemon">
         </div>
 
         <div>
             <label for="tipo1">Tipo 1</label>
             <select name="tipo1" id="tipo1">
-                <option value=""></option>
+                <option value="">...</option>
                 <option value="aço">Aço</option>
                 <option value="agua">Água</option>
                 <option value="dragão">Dragão</option>
@@ -46,7 +46,7 @@
         <div>
             <label for="tipo2">Tipo 2</label>
             <select name="tipo2" id="tipo2">
-                <option value=""></option>
+                <option value="">...</option>
                 <option value="aço">Aço</option>
                 <option value="agua">Água</option>
                 <option value="dragão">Dragão</option>
@@ -108,32 +108,32 @@
                 <legend>Geração</legend>
                     <ul>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="1">1</label>
+                            <input type="radio" name="geracao" id="g1">
+                            <label for="g1">1</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="2">2</label>
+                            <input type="radio" name="geracao" id="g2">
+                            <label for="g2">2</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="3">3</label>
+                            <input type="radio" name="geracao" id="g3">
+                            <label for="g3">3</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="4">4</label>
+                            <input type="radio" name="geracao" id="g4">
+                            <label for="g4">4</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="5">5</label>
+                            <input type="radio" name="geracao" id="g5">
+                            <label for="g5">5</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="6">6</label>
+                            <input type="radio" name="geracao" id="g6">
+                            <label for="g6">6</label>
                         </li>
                         <li>
-                            <input type="radio" name="geracao" id="geracao">
-                            <label for="7">7</label>
+                            <input type="radio" name="geracao" id="g7">
+                            <label for="g7">7</label>
                         </li>
                     </ul>
                 </fieldset>
@@ -158,8 +158,8 @@
 
         <div>
             <label for="cor">Cor</label>
-            <select name="tipo2" id="tipo2">
-                <option value=""></option>
+            <select name="cor" id="cor">
+                <option value="">...</option>
                 <option value="amarelo">Amarelo</option>
                 <option value="azul">Azul</option>
                 <option value="branco">Branco</option>
@@ -175,12 +175,12 @@
         </div>
 
         <div>
-            <label for="altura-m">Altura (m)</label>
+            <label for="altura">Altura (m)</label>
             <input type="number" name="altura-m" id="altura">
         </div>
 
         <div>
-            <label for="peso-kg">Peso (Kg)</label>
+            <label for="peso">Peso (Kg)</label>
             <input type="number" name="peso-kg" id="peso">
         </div>
 
